@@ -1,0 +1,159 @@
+body {
+    background-color: rgb(26, 26, 26);
+    color: white;
+}
+
+nav#navbar-topo {
+  background-color: rgb(5, 5, 5);
+  color: white;
+}
+
+a#navbar-topo-title {
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+a#navbar-topo-title:hover {
+  color: rgb(189, 189, 189);
+}
+
+#navbarNavDropdown {
+    color: white;
+}
+
+div#container {
+    background-color: white;
+    color: black;
+    margin: auto;
+    padding: 20px;
+    width: 1200px;
+    border-radius: 10px;
+    margin-top: 50px;
+    box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.507);
+}
+
+.imagens {
+    width: 80%; 
+    justify-content: center;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.imagens:hover {
+    box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.507);
+}
+
+.carousel-item {
+    height: 32rem;
+    background-color: rgb(10, 10, 10);
+    color: white;
+    position: relative;
+}
+
+.container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 100px;
+}
+
+#myCarousel {
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.507);
+}
+
+div#container-content {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.pt-10 {
+    padding-top: 140px;
+}
+
+.custom-1 img {
+    float: right;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.507);
+}
+
+.custom-1 p {
+    width: 40%;
+}
+
+
+.text-block {
+    color: rgb(163, 163, 163);
+}
+
+.custom2 {
+    padding-top: 150px;
+}
+
+.custom-2 img {
+    float: left;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 4px 8px 0px 0px rgba(0, 0, 0, 0.507);
+}
+
+.custom-2 h3 {
+    text-align: left;
+    float: right;
+    width: 40%;
+}
+
+.custom-2 p {
+    text-align: left;
+    float: right;
+    width: 40%;
+}
+
+
+div#calculadora {
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 30px 25px;
+    background-color: rgba(0, 0, 0, 0.767);
+    border-radius: 40px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    color: white;
+    text-align: center;
+}
+  
+.botao {
+    background-color: rgb(24, 24, 24);
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 2px;
+}
+
+.botao:hover {
+    background-color: rgb(0, 0, 0);
+}
+
+.botao:focus {
+    border: 1px solid rgba(255, 255, 255, 0.568);
+    background-color: rgb(0, 0, 0);
+}
+
+#resultado {
+    width: 221px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: right;
+    padding: 3px;
+}
