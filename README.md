@@ -1,4 +1,4 @@
-# Site-exerc-cios-javascript
+# Site-exercicios-javascript
 Um simples site com exercícios feito com bootstrap, html, css e javascript. Ele contêm uma calculadora de IMC e uma calculadora.
 
 Página home:
